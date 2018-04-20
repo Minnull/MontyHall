@@ -12,6 +12,7 @@ import java.util.Scanner;
  */
 public class MontyHall {
 	static void MontyHall(int number) {
+		//本程序采用1.2.3代表三个不同的选项
 		int keep = 0;// 坚持胜利次数
 		int change = 0;// 改变胜利次数
 		for (int d = 0; d < number; d++) {
